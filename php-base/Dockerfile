@@ -1,5 +1,4 @@
-FROM php:7.3-apache
-MAINTAINER Malitta Nanayakkara <malitta@gmail.com>
+FROM php:7.4-apache
 
 RUN apt-get update && apt-get install -y \
 	curl \
